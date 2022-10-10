@@ -5,7 +5,7 @@ import Header from "./Header";
 import styled from "styled-components";
 
 const Home = () => {
-  const [carsList, setCarsList] = useState(Cars);
+//   const [carsList, setCarsList] = useState(Cars);
   const [isMobileOn, setIsMobileOn] = useState(false);
 
   const openMobileMenu = () => {
@@ -27,7 +27,7 @@ const Home = () => {
           />
         </HeaderContainer>
 
-        {carsList.map((car) => {
+        {Cars.map((car) => {
           const {
             id,
             title,
